@@ -12,7 +12,6 @@ This repository holds the **downloads** for the Karaoke Night app. Free project,
 | Device | Download |
 | --- | --- |
 | **Windows PC** | [KaraokeNight-Setup.exe](../../releases/latest/download/KaraokeNight-Setup.exe) |
-| **Android** | Coming soon |
 
 All versions and what changed: see **[Releases](../../releases)**.
 
