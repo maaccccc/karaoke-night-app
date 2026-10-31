@@ -1,0 +1,38 @@
+name: Something is not working
+description: Tell me what went wrong so I can fix it
+labels: [bug]
+body:
+  - type: dropdown
+    id: device
+    attributes:
+      label: Which device?
+      options: [Windows app, Android app, Web browser on a computer, Web browser on a phone/tablet]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version (if you know it)
+      description: For example 1.1.0. It is shown on the Releases page you downloaded from.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options: [Singing solo, In a room with friends, Searching or queueing songs, Lyrics out of sync, Microphone or sound, Something else]
+  - type: input
+    id: song
+    attributes:
+      label: Song (if it is about one song)
+      description: Title and artist, and whether you chose a karaoke version.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help. Please do not include passwords or private information.
