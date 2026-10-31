@@ -1,0 +1,37 @@
+Karaoke Night Freeware License
+
+Copyright (c) 2026 [YOUR NAME]. All rights reserved.
+
+1. Permission. You may download, install and use the Karaoke Night application and its
+   updates (the "Software") free of charge, for personal, non-commercial use, on any
+   number of your own devices.
+
+2. Sharing. You may share the unmodified installer files that are published on the
+   Releases page of this repository, as long as you do not charge for them and you keep
+   this license with them.
+
+3. Restrictions. You may not, without written permission: (a) sell, rent, lease or
+   sublicense the Software, or use it to provide a paid service; (b) modify it or create
+   derivative works from it; (c) decompile, disassemble or reverse engineer it, except to
+   the extent that applicable law allows this despite this restriction; (d) remove or
+   change any copyright or license notice.
+
+4. Third-party components. The Software includes open-source components, such as Electron
+   and Chromium, which are licensed under their own terms. Those terms apply to those
+   components only, and are included with the installed application.
+
+5. Third-party services. The Software plays music through YouTube's embedded player and
+   shows lyrics supplied by LRCLIB. Those services belong to their owners and have their
+   own terms; using the Software does not give you any rights in them. The Software is not
+   affiliated with or endorsed by YouTube, YouTube Music or LRCLIB.
+
+6. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+7. Limitation of liability. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
+
+8. Termination. This license ends automatically if you break its terms. The author may
+   change or end the availability of the Software at any time.
