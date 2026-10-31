@@ -29,9 +29,6 @@ All versions and what changed: see **[Releases](../../releases)**.
 (the app is not signed with a paid certificate, so Windows does not know it yet). After the first install the app **updates itself**:
 new versions download quietly and install the next time you close the app.
 
-**Android.** Open the `.apk` file. Android will ask you to allow installing apps from this source once. To update, download the newest
-`.apk` and open it again; your settings stay.
-
 ## Good to know
 
 - Karaoke Night needs an **internet connection**: the songs, lyrics and rooms with friends run online.
