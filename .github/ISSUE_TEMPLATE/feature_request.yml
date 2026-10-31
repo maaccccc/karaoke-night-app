@@ -1,0 +1,15 @@
+name: Idea or request
+description: Suggest something new for Karaoke Night
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: When would you use it, for example at a party or on your own?
