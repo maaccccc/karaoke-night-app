@@ -6,6 +6,8 @@
 
 Sing with time-synced lyrics, live scoring and friends, on one device or across the world. A free project, made for fun.
 
+> **Transparency:** this app was built with AI assistance and has one optional AI feature. Details in [AI and tools](#ai-and-tools).
+
 **This repository hosts the Windows installer. The full source code is open: [github.com/maaccccc/karaoke-night](https://github.com/maaccccc/karaoke-night).** You can read exactly what the app does, or run it yourself without installing anything.
 
 ## Download
@@ -42,6 +44,16 @@ Don't want to take the installer on trust? Two easy checks:
 2. **Scan it** at [virustotal.com](https://www.virustotal.com) and compare the report with the release notes.
 
 Because the source is public, you can also build the app yourself and compare.
+
+## AI and tools
+
+**How it was made.** Karaoke Night was built with the help of AI coding assistants (large language models), directed and tested by me. [EDIT: name the tools you used, e.g. Claude, ChatGPT, GitHub Copilot, and say roughly how much was AI-written.] It has not had a professional security audit, so treat it as a hobby project. This README was also written with AI help.
+
+**AI inside the app.** There is one optional feature: an "AI judge" comment on the results screen, written by Google Gemini. It only works if the server has a `GEMINI_API_KEY` set; otherwise it is off. [EDIT: say whether the server behind the installer has it on.] When on, it receives the song title and score numbers only: never your audio, name or chat. If the comment fails a check, a fixed non-AI sentence is shown instead.
+
+**Not AI.** Scoring, lyric timing, the word filter and karaoke-version matching are ordinary rule-based code. Your singing is never recorded or sent to any AI.
+
+**Built on.** YouTube's embedded player, LRCLIB for lyrics, `ytmusicapi` (unofficial), Cloudflare/Google relay and STUN servers for voice, and a few open-source libraries. The full list is in the [source README](https://github.com/maaccccc/karaoke-night#ai-tools-and-credits).
 
 ## Privacy: what stays on your device and what doesn't
 
