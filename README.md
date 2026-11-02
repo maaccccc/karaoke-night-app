@@ -40,6 +40,9 @@ new versions download quietly and install the next time you close the app.
 
 Open an **[Issue](../../issues/new/choose)** and say which device you use and what happened. For security problems, please read [SECURITY.md](SECURITY.md) first.
 
+## VirusTotal Result
+https://www.virustotal.com/gui/file/e739643b0034077071f70007c2f9357b7720473e89d365bd4fb791ae68d494e8/detection
+
 ## License
 
 Free to use for personal, non-commercial use. See [LICENSE](LICENSE).
